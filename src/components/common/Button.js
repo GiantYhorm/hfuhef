@@ -20,8 +20,11 @@ const styles = {
         fontWeight: '600',
         paddingTop: 10,
         paddingBottom: 10,
+        
     },
     buttonStyle: {
+        justifyContent: 'center',
+        alignItems:'center',
         flex: 1,
         alignSelf: 'stretch',
         backgroundColor: '#fff',

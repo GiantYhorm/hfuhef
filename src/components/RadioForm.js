@@ -29,9 +29,9 @@ class RadioForm extends Component {
         return (
             <View>
                 <CardSection>
-                    {this.props.imagePath ? <Image style={{width:100,height:100}} source={{uri:this.props.imagePath}} /> : null }
-            <Button onPress={this.openImagePicker.bind(this)}>
-DDD
+                    {this.props.imagePath ? <Image style={{width:80,height:80 }} source={{uri:this.props.imagePath}} /> : null }
+            <Button onPress={this.openImagePicker.bind(this)} style={{flex:0,margin: 20}}>
+Choose file to upload
 </Button>
                     </CardSection>
                 <CardSection>
