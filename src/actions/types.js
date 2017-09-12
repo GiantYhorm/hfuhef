@@ -1,0 +1,13 @@
+export const EMAIL_CHANGED  = 'email_changed'
+export const PASSWORD_CHANGED = 'password_changed'
+export const LOGIN_USER_SUCCESS = 'login_user_success'
+export const LOGIN_USER_FAIL = 'login_user_fail'
+export const LOGIN_USER = 'login_user'
+
+export const RADIO_UPDATE = 'radio_update'
+export const RADIO_CREATE = 'radio_create'
+export const RADIO_FETCH_SUCCESS = 'radio_fetch_success'
+export const RADIO_SAVE_SUCCESS = 'radio_save_success'
+export const RADIO_DELETE = 'radio_delete'
+export const IMAGE_PATH_CHANGED = 'image_path_changed'
+export const CONFIRM_CHECK='confirm_check'
